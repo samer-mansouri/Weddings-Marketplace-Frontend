@@ -45,8 +45,8 @@ class MainService {
         return api.get("/get_categories_names");
     }
 
-    getCategorie(id){
-        return api.get(`/get_categorie/${id}`);
+    getCategory(id){
+        return api.get(`/get_category/${id}`);
     }
 
     updateCategorie(id, data){

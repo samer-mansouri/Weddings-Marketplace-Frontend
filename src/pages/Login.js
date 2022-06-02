@@ -4,6 +4,7 @@ import * as Yup from 'yup';
 import AuthService from '../services/auth.service';
 import { useState } from 'react';
 import { Redirect } from "react-router-dom";
+import ErrorAlert from "../components/ErrorAlert";
 
 const SignInSchema = Yup.object().shape({
     email: Yup.string().email('Invalid email').required('Email field is required'),
@@ -28,7 +29,6 @@ export default function Login() {
           console.log(err)
           if(err.response.status === 404 || err.response.status === 401) {
             setNotUser(true)
-              setNotUser(false)
           }
         }).finally(() => {
             setLoading(false)
@@ -36,12 +36,12 @@ export default function Login() {
     }
 
     if(loggedIn) {
-        return <Redirect to="/" />
+        return <Redirect exact to="/" />
     } else {
         return (
             <>
               <Navbar />
-              <div className="min-h-full flex mt-8 ml-72 mr-72">
+              <div className="min-h-full flex mt-8 ml-72 mr-72 mb-8">
                 <div className="flex-1 flex border shadow     flex-col justify-center py-12 px-4 sm:px-6 lg:flex-none lg:px-20 xl:px-24 ">
                   <div className="mx-auto w-full max-w-sm lg:w-96 py-36">
                     <div>
@@ -54,6 +54,18 @@ export default function Login() {
                           s'inscrire
                         </a>
                       </p>
+
+                      {
+                  notUser ? 
+                    <div className="mt-3">
+                      <ErrorAlert 
+                      title="Ce compte n'existe pas"
+                      message="Veuillez vérifier vos identifiants"
+                    />  
+                    
+                    </div>
+                  : ''
+                }
                     </div>
         
                     <div className="mt-8">
@@ -69,6 +81,8 @@ export default function Login() {
                         >
 
                         <Form action="#" method="POST" className="space-y-6">
+                          
+                        
                           <div>
                             <label htmlFor="email" className="block text-sm font-medium text-gray-700">
                               Adresse email

@@ -7,6 +7,10 @@ import {
   Link
 } from "react-router-dom";
 import Login from './pages/Login';
+import Register from './pages/Register';
+import AnnoncesList from './pages/AnnoncesList';
+import CategoriesList from './pages/CategoriesList';
+import AnnoncesForCat from './pages/AnnoncesForCat';
 
 
 function App() {
@@ -18,6 +22,18 @@ function App() {
         </Route>
         <Route path="/login">
           <Login />  
+        </Route>
+        <Route path="/signup">
+          <Register />
+        </Route>
+        <Route path="/annonces">
+          <AnnoncesList />  
+        </Route>
+        <Route path="/categories">
+          <CategoriesList />  
+        </Route>
+        <Route path="/category/:id">
+          <AnnoncesForCat />
         </Route>
       </Switch>
     </Router>

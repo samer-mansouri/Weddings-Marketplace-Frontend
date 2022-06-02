@@ -16,6 +16,7 @@ import {
   XIcon,
 } from '@heroicons/react/outline'
 import { ChevronDownIcon } from '@heroicons/react/solid'
+import { NavLink } from 'react-router-dom'
 
 const solutions = [
   {
@@ -242,15 +243,15 @@ export default function Navbar() {
             </Popover>
           </Popover.Group>
           <div className="hidden md:flex items-center justify-end md:flex-1 lg:w-0">
-            <a href="#" className="whitespace-nowrap text-base font-medium text-gray-500 hover:text-gray-900">
-              Sign in
-            </a>
-            <a
-              href="#"
+            <NavLink to="/login" className="whitespace-nowrap text-base font-medium text-gray-500 hover:text-gray-900">
+              Se connecter
+            </NavLink>
+            <NavLink
+              to="/signup"
               className="ml-8 whitespace-nowrap inline-flex items-center justify-center px-4 py-2 border border-transparent rounded-md shadow-sm text-base font-medium text-white bg-[#d83d2e] hover:bg-[#d83d2e]"
             >
-              Sign up
-            </a>
+              S'inscrire
+            </NavLink>
           </div>
         </div>
       </div>
