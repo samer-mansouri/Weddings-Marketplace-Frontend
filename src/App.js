@@ -11,6 +11,9 @@ import Register from './pages/Register';
 import AnnoncesList from './pages/AnnoncesList';
 import CategoriesList from './pages/CategoriesList';
 import AnnoncesForCat from './pages/AnnoncesForCat';
+import SingleAnnonce from './pages/SingleAnnonce';
+import AddAnnonce from './pages/AddAnnonce';
+import AddCategory from './pages/AddCategory';
 
 
 function App() {
@@ -35,6 +38,15 @@ function App() {
         <Route path="/category/:id">
           <AnnoncesForCat />
         </Route>
+        <Route path="/annonce/:id">
+          <SingleAnnonce />
+        </Route>
+        <Route path="/addanonnce">
+          <AddAnnonce />
+        </Route>
+        <Route path="/addcategory">
+          <AddCategory />
+          </Route>
       </Switch>
     </Router>
   );

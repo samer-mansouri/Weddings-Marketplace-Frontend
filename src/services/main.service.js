@@ -1,4 +1,5 @@
 import api from "./api";
+import api1 from "./api1";
 
 class MainService {
 
@@ -20,7 +21,7 @@ class MainService {
     }
 
     createAnnonce(data){
-        return api.post("/post_annonce", data);
+        return api1.post("/post_annonce", data);
     }
 
     updateAnnonce(id, data){

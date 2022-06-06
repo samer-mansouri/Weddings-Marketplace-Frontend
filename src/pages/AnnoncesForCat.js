@@ -1,7 +1,9 @@
 import React from 'react'
+import { Link } from 'react-router-dom';
 import { useParams } from 'react-router-dom'
 import Navbar from '../layouts/Navbar';
 import MainService from '../services/main.service';
+
 
 function AnnoncesForCat() {
 
@@ -72,12 +74,12 @@ function AnnoncesForCat() {
                 </div>
               </div>
               <div className="mt-6">
-                <a
-                  href={product.href}
+                <Link
+                  to={`/annonce/${product._id}`}
                   className="relative flex bg-gray-100 border border-transparent rounded-md py-2 px-8 items-center justify-center text-sm font-medium text-gray-900 hover:bg-gray-200"
                 >
                   Voir plus<span className="sr-only">, {product.name}</span>
-                </a>
+                </Link>
               </div>
             </div>
           ))}
