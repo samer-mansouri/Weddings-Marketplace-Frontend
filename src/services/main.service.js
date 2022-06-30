@@ -51,27 +51,59 @@ class MainService {
     }
 
     updateCategorie(id, data){
-        return api.put(`/update_categorie/${id}`, data);
+        return api.put(`/update_category/${id}`, data);
     }
 
     deleteCategory(id){
-        return api.delete(`/delete_categorie/${id}`);
+        return api.delete(`/delete_category/${id}`);
+    }
+
+    //User service 
+
+    getUser(id){
+        return api.get(`/user/${id}`);
+    }
+
+    getAllUsers(){
+        return api.get("/users");
+    }
+
+    deleteUser(id){
+        return api.delete(`/deleteuser/${id}`);
+    }
+
+    updateUser(data){
+        return api.put(`/updateuser`, data);
     }
 
     //Reservation service
 
     createReservation(data){
-        return api.post("/post_reservation", data);
+        return api.post("/create_reservation", data);
     }
 
     getUserReservations(user){
-        return api.get(`/get_user_reservations/${user}`);
+        return api.get(`/get_user_reservations`);
     }
 
     getReceiverReservations(receiver){
-        return api.get(`/get_receiver_reservations/${receiver}`);
+        return api.get(`/get_receiver_reservations`);
     }
-        
+
+    deleteReservation(id){
+        return api.delete(`/delete_reservation/${id}`)
+    }
+    
+    //Message Service
+    getMessages(data){
+        return api.post(`/get_messages`, data);
+    }
+
+    addMessage(data){
+        return api.post(`/add_message`, data);
+    }
+
+
 
 
 

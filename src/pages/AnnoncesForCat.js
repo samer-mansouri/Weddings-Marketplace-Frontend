@@ -1,6 +1,7 @@
 import React from 'react'
 import { Link } from 'react-router-dom';
 import { useParams } from 'react-router-dom'
+import Up from '../components/Up';
 import Navbar from '../layouts/Navbar';
 import MainService from '../services/main.service';
 
@@ -86,6 +87,7 @@ function AnnoncesForCat() {
         </div>
       </div>
     </div>
+    <Up />
     </>
   )
 }
