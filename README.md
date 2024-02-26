@@ -1,25 +1,28 @@
-# Getting Started with Create React App
+# Wedding Marketplace Client
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This is the client-side codebase for the Wedding Marketplace project. It's built using React.
+
+## Installation
+
+Make sure you have Node.js and npm installed on your machine.
+
+1. Clone this repository.
+2. Navigate to the project directory in your terminal.
+3. Run `npm install` to install dependencies.
 
 ## Available Scripts
 
 In the project directory, you can run:
 
-### `npm start`
+### 🚀 `npm start`
 
 Runs the app in the development mode.\
 Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+The page will reload if you make edits.\
+You will also see any lint errors in the console.
 
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
+### 🏗️ `npm run build`
 
 Builds the app for production to the `build` folder.\
 It correctly bundles React in production mode and optimizes the build for the best performance.
@@ -29,42 +32,22 @@ Your app is ready to be deployed!
 
 See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-### `npm run eject`
+## Dependencies
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+This project utilizes several third-party dependencies:
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+- ![React](https://upload.wikimedia.org/wikipedia/commons/a/a7/React-icon.svg) `React`: A JavaScript library for building user interfaces.
+- ![Tailwind CSS](https://upload.wikimedia.org/wikipedia/commons/d/d4/Tailwind_CSS_Logo.svg) `Tailwind CSS`: A utility-first CSS framework for rapidly building custom designs.
+- ![Formik](https://seeklogo.com/images/F/formik-logo-1FBA8B2CB0-seeklogo.com.png) `Formik`: Form library for React.
+- ![Axios](https://upload.wikimedia.org/wikipedia/commons/6/65/Axios_logo_%282020%29.svg) `Axios`: Promise-based HTTP client for the browser and node.js.
+- ![Moment.js](https://upload.wikimedia.org/wikipedia/commons/8/8f/Moment.js_logo.svg) `Moment.js`: A JavaScript date library for parsing, validating, manipulating, and formatting dates.
+- ![React Router](https://upload.wikimedia.org/wikipedia/en/6/6a/React_router_logo.png) `React Router`: Declarative routing for React.
+- ![Yup](https://miro.medium.com/max/512/1*uTlqGcOieba14U5FAbXzbQ.png) `Yup`: A JavaScript schema builder for value parsing and validation.
+- ![Socket.IO](https://upload.wikimedia.org/wikipedia/commons/9/96/Socket-io.svg) `Socket.IO`: Socket.IO client.
+- ![React Table](https://raw.githubusercontent.com/tannerlinsley/react-table/master/images/logo.png) `React Table`: Hooks for building fast and extendable tables and datagrids for React.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+## Contributing
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
 
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Please make sure to update tests as appropriate.
