@@ -36,15 +36,15 @@ See the section about [deployment](https://facebook.github.io/create-react-app/d
 
 This project utilizes several third-party dependencies:
 
-- ![React](https://upload.wikimedia.org/wikipedia/commons/a/a7/React-icon.svg) `React`: A JavaScript library for building user interfaces.
-- ![Tailwind CSS](https://upload.wikimedia.org/wikipedia/commons/d/d4/Tailwind_CSS_Logo.svg) `Tailwind CSS`: A utility-first CSS framework for rapidly building custom designs.
-- ![Formik](https://seeklogo.com/images/F/formik-logo-1FBA8B2CB0-seeklogo.com.png) `Formik`: Form library for React.
-- ![Axios](https://upload.wikimedia.org/wikipedia/commons/6/65/Axios_logo_%282020%29.svg) `Axios`: Promise-based HTTP client for the browser and node.js.
-- ![Moment.js](https://upload.wikimedia.org/wikipedia/commons/8/8f/Moment.js_logo.svg) `Moment.js`: A JavaScript date library for parsing, validating, manipulating, and formatting dates.
-- ![React Router](https://upload.wikimedia.org/wikipedia/en/6/6a/React_router_logo.png) `React Router`: Declarative routing for React.
-- ![Yup](https://miro.medium.com/max/512/1*uTlqGcOieba14U5FAbXzbQ.png) `Yup`: A JavaScript schema builder for value parsing and validation.
-- ![Socket.IO](https://upload.wikimedia.org/wikipedia/commons/9/96/Socket-io.svg) `Socket.IO`: Socket.IO client.
-- ![React Table](https://raw.githubusercontent.com/tannerlinsley/react-table/master/images/logo.png) `React Table`: Hooks for building fast and extendable tables and datagrids for React.
+- [![React](https://img.shields.io/badge/-React-61DAFB?style=flat-square&logo=react&logoColor=white)](https://reactjs.org/) `React`: A JavaScript library for building user interfaces.
+- [![Tailwind CSS](https://img.shields.io/badge/-Tailwind_CSS-38B2AC?style=flat-square&logo=tailwind-css&logoColor=white)](https://tailwindcss.com/) `Tailwind CSS`: A utility-first CSS framework for rapidly building custom designs.
+- [![Formik](https://img.shields.io/badge/-Formik-F49F0A?style=flat-square&logo=formik&logoColor=white)](https://formik.org/) `Formik`: Form library for React.
+- [![Axios](https://img.shields.io/badge/-Axios-007ACC?style=flat-square&logo=axios&logoColor=white)](https://axios-http.com/) `Axios`: Promise-based HTTP client for the browser and node.js.
+- [![Moment.js](https://img.shields.io/badge/-Moment.js-F7DF1E?style=flat-square&logo=moment&logoColor=black)](https://momentjs.com/) `Moment.js`: A JavaScript date library for parsing, validating, manipulating, and formatting dates.
+- [![React Router](https://img.shields.io/badge/-React_Router-CA4245?style=flat-square&logo=react-router&logoColor=white)](https://reactrouter.com/) `React Router`: Declarative routing for React.
+- [![Yup](https://img.shields.io/badge/-Yup-663399?style=flat-square&logo=yup&logoColor=white)](https://github.com/jquense/yup) `Yup`: A JavaScript schema builder for value parsing and validation.
+- [![Socket.IO](https://img.shields.io/badge/-Socket.IO-010101?style=flat-square&logo=socket-dot-io&logoColor=white)](https://socket.io/) `Socket.IO`: Socket.IO client.
+- [![React Table](https://img.shields.io/badge/-React_Table-7B7B7B?style=flat-square&logo=react&logoColor=white)](https://react-table.tanstack.com/) `React Table`: Hooks for building fast and extendable tables and datagrids for React.
 
 ## Contributing
 
